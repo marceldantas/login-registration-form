@@ -68,3 +68,7 @@ form{
     color: #333;
 }
 
+.input-field input::placeholder{
+    color: #aaa;
+    font-weight: 500;
+}
