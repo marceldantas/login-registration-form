@@ -1,5 +1,7 @@
 @import url("http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
+/* (BEEP CLARO) #00C7B1 rgb(0, 199, 177) */
+/* (BEEP OFICIAL) rgb(0, 178, 169) */
 *{
     padding: 0;
     margin: 0;
@@ -24,7 +26,7 @@ body, input{
     width: 2000px;
     height: 2000px;
     border-radius: 50%;
-    background: linear-gradient(-45deg, rgb(0, 178, 169), rgb(0, 199, 177));
+    background: linear-gradient(-45deg, rgb(0, 199, 177), rgb(0, 178, 169));
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
@@ -158,8 +160,8 @@ form.sign-up-form{
 }
 
 .social-icon:hover{
-    color: rgb(0, 199, 177); /* (BEEP CLARO) #00C7B1 */
-    border-color: rgb(0, 199, 177); /* #00C7B1 */
+    color: rgb(0, 178, 169);
+    border-color: rgb(0, 178, 169);
 }
 
 .panels-container{
